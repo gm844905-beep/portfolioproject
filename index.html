@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Глеб Михайлов - начинающий разработчик</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header id="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <i class="fas fa-code"></i> Глеб<span>Михайлов </span>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Привет</h1>
+                <h2>Я начинающий разработчик & Верстальщик</h2>
+                <p>Создаю современные, отзывчивые и быстрые веб-сайты с использованием HTML, CSS, JavaScript.</p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn">Мои работы</a>
+                    <a href="#contact" class="btn btn-outline">Связаться со мной</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Обо мне</h2>
+                <p>Узнайте больше о моем опыте и подходе к работе</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="img/1764839131.png" alt="HTML">
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>начинающий разработчик с опытом полгода</h3>
+                    <p>Я занимаюсь созданием современных, адаптивных веб-сайтов, которые не только выглядят привлекательно, но и работают быстро и эффективно.</p>
+                    
+                    <div class="about-info">
+                        <div class="info-item">
+                            <p><strong>Имя:</strong> Глеб Михайлов</p>
+                            <p><strong>Опыт:</strong> пол года</p>
+                        </div>
+                        <div class="info-item">
+                            <p><strong>Email:</strong> gm844905@mail.ru </p>
+                            <p><strong>Локация:</strong> Челябинск , Россия</p>
+                        </div>
+                    </div>
+                    
+                    <p>Моя цель — создавать качественные цифровые продукты, которые решают задачи пользователей и помогают бизнесу достигать своих целей. Я постоянно изучаю новые технологии и слежу за трендами в веб-разработке.</p>
+                    
+                    <a href="#contact" class="btn about-btn">Связаться со мной</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Портфолио</h2>
+                <p>Мои последние работы в IT-сфере</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                       <img src="img/travel-visit.png" alt="Сайт-визитка">
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Сайт туристической компании </h3>
+                        <p>Сайт с основной информацией о компании, сотрудниках, и услугах с возможностью обратной связи</p>
+                        
+                        <div class="portfolio-tags">
+                            <span>HTML</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                       <img src="img/honey.png" alt="Мёёёд">
+                        <div class="portfolio-overlay">
+                            <a href="https://gm844905-beep.github.io/honeysell/" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Сайт-статья о меде </h3>
+                        <p>Одностраничный сайт с выдержанным стилем и информацией</p>
+                    
+                        <div class="portfolio-tags">
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/clothes.png" alt="Clothes_store">
+                        <div class="portfolio-overlay">
+                            <a href="https://gm844905-beep.github.io/looop/" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Сайт магазина одежды </h3>
+                        <p>Одностраничный  сайт для магазина одежды  с карточками , формой обратной связи и адаптивным дизайном.</p>
+                        <div class="portfolio-tags">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="img/1765711156.png" alt="FLEX">
+                        <div class="portfolio-overlay">
+                            <a href="https://gm844905-beep.github.io/flex-container/" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Cайт с демонстрацией Flex-Box контейнеров</h3>
+                        <p>Двухстраничный сайт с демонстрацией возможностей FLex контейнеров</p>
+                        <div class="portfolio-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </section>   
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Связаться со мной</h2>
+                <p>Есть вопросы или проект для обсуждения? Напишите мне!</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Контактная информация</h3>
+                    <p>Готов обсудить ваши идеи и помочь с реализацией проектов. Отвечаю в течение 5-6 часов.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Адрес</h4>
+                                <p>Челябинск, Россия</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>gm844905@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Телефон</h4>
+                                <p>+7 (999) 123-45-67</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/"><i class="fab fa-github"></i></a>
+                        <a href="https://web.telegram.org/a/"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Ваш Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Тема сообщения" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Ваше сообщение" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn form-btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home" class="logo">
+                    </a>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">Обо мне</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-envelope"></i> gm844905@mail.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Глеб Михайлов. Все права защищены.</p>
+                <p>Сайт-портфолио верстальщика/программиста</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
